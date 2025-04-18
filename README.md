@@ -1,0 +1,33 @@
+# Improving Patient Outcomes through Predictive Analytics: Predicting ICU Readmission Using NLP and AI Models
+
+**Author:** Andrea Wroblewski  
+**Course:** Artificial Intelligence in Healthcare
+**Institution:** Michigan Technological University  
+**Date:** April 2024
+
+##  Project Objective
+
+This project aims to build a predictive analytics model to identify ICU patients at risk of readmission within 30 days. The model combines both structured EHR data and unstructured clinical notes using machine learning (Random Forest, XGBoost) and NLP techniques (ClinicalBERT).
+
+## Datasets
+
+**MIMIC-IV v2.2**: Structured electronic health record data  
+  [https://physionet.org/content/mimiciv/2.2/](https://physionet.org/content/mimiciv/2.2/)
+
+**MIMIC-IV-Note v2.2**: Deidentified free-text clinical discharge notes  
+  [https://physionet.org/content/mimic-iv-note/2.2/](https://physionet.org/content/mimic-iv-note/2.2/)
+
+> Note: Dataset access requires credentialed approval via PhysioNet.
+
+## Models Used
+
+- **Random Forest Classifier**
+- **XGBoost Classifier**
+- **ClinicalBERT Embeddings** (from discharge summaries)
+- **SMOTE** (Synthetic Minority Over-sampling Technique for class balancing)
+
+## Results
+
+- Combining structured data + ClinicalBERT text embeddings significantly improved performance.
+- Best Model: Narrowed XGBoost on combined data
+- AUROC: 0.98 after SMOTE and hyperparameter tuning.
