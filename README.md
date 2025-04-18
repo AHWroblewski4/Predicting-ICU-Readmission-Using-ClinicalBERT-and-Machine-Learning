@@ -31,3 +31,6 @@ This project aims to build a predictive analytics model to identify ICU patients
 - Combining structured data + ClinicalBERT text embeddings significantly improved performance.
 - Best Model: Narrowed XGBoost on combined data
 - AUROC: 0.98 after SMOTE and hyperparameter tuning.
+
+## YouTube Presentation
+https://youtu.be/Eku01n0-044
