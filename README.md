@@ -5,6 +5,9 @@
 **Institution:** Michigan Technological University  
 **Date:** April 2024
 
+## YouTube Presentation
+https://youtu.be/Eku01n0-044
+
 ##  Project Objective
 
 This project aims to build a predictive analytics model to identify ICU patients at risk of readmission within 30 days. The model combines both structured EHR data and unstructured clinical notes using machine learning (Random Forest, XGBoost) and NLP techniques (ClinicalBERT).
@@ -29,8 +32,17 @@ This project aims to build a predictive analytics model to identify ICU patients
 ## Results
 
 - Combining structured data + ClinicalBERT text embeddings significantly improved performance.
-- Best Model: Narrowed XGBoost on combined data
+- Best Model: Narrowed XGBoost on combined data.
 - AUROC: 0.98 after SMOTE and hyperparameter tuning.
 
-## YouTube Presentation
-https://youtu.be/Eku01n0-044
+##  Key Insights
+
+- Discharge summaries contain clinical cues that structured data may miss.
+- ClinicalBERT effectively captures domain-specific language patterns.
+- SMOTE improves recall for the minority (readmitted) class.
+
+---
+
+
+
+
