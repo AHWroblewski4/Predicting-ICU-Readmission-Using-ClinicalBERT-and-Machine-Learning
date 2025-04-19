@@ -21,6 +21,11 @@ This project aims to build a predictive analytics model to identify ICU patients
   [https://physionet.org/content/mimic-iv-note/2.2/](https://physionet.org/content/mimic-iv-note/2.2/)
 
 > Note: Dataset access requires credentialed approval via PhysioNet.
+## Data Files Included
+
+These preprocessed files are included in the repository:
+- `structured_data.pkl` – Cleaned and engineered structured EHR features
+- `bert_embeddings.pkl` – ClinicalBERT-generated embeddings from discharge summaries
 
 ## Models Used
 
