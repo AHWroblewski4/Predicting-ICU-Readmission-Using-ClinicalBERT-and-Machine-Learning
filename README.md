@@ -67,10 +67,6 @@ These preprocessed files are included in the repository:
 
 ## Related Work
 
-This project is grounded in recent research that highlights the value of combining structured clinical data with natural language processing (NLP) techniques to improve ICU readmission prediction.
-
-### Literature Summary
-
 - **Alsentzer et al. (2019)** introduced ClinicalBERT, a domain-specific BERT model trained on clinical text from MIMIC-III. It demonstrated improved performance on readmission prediction tasks using discharge summaries.  
   🔗 https://arxiv.org/abs/1904.03323
 
