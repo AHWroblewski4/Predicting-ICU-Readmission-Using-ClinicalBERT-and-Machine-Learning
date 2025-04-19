@@ -46,6 +46,22 @@ These preprocessed files are included in the repository:
 - ClinicalBERT effectively captures domain-specific language patterns.
 - SMOTE improves recall for the minority (readmitted) class.
 
+##  Related Work
+
+This project is grounded in recent research that highlights the value of combining structured clinical data with natural language processing (NLP) techniques to improve ICU readmission prediction.
+
+### Literature 
+
+- **Alsentzer et al. (2019)** introduced ClinicalBERT, a domain-specific BERT model trained on clinical text from MIMIC-III. It demonstrated improved performance on readmission prediction tasks using discharge summaries. https://arxiv.org/abs/1904.03323
+- **Chiu et al. (2024)** combined BERTopic and LSTM to semantically analyze discharge summaries and significantly improve readmission prediction accuracy. https://doi.org/10.3390/jcm13185503
+- **González-Nóvoa et al. (2023)** used optimized XGBoost with Bayesian tuning and explainable AI techniques, achieving an AUROC of 0.92 for ICU readmission prediction. https://doi.org/10.3390/ijerph20043455
+- **Lu, Nguyen, & Dou (2021)** developed MedText, an enhanced model that integrates medical knowledge graphs from UMLS and outperformed ClinicalBERT in predictive tasks https://doi.org/10.1145/3404835.3463062
+- **Orangi-Fard et al. (2022)** showed that machine learning combined with NLP applied to discharge summaries yielded superior results compared to models using structured data alone. https://doi.org/10.3390/informatics9010010
+- **Rojas et al. (2018)** conducted a large-scale study using gradient-boosted machines (GBM) on structured EHR data and found them to outperform traditional logistic regression. https://doi.org/10.1513/AnnalsATS.201710-787OC
+- **Sheetrit et al. (2023)** conducted a multimodal evaluation of ICU readmission predictors and found that discharge notes outperformed all other modalities for unplanned readmissions. Their work emphasized the importance of NLP in clinical decision-making and validated the predictive value of ClinicalBERT-like models. https://doi.org/10.1038/s41598-023-42372-y
+
+These studies support this project's approach to building a hybrid model that integrates ClinicalBERT embeddings with structured data to enhance predictive accuracy and clinical relevance.
+
 ---
 ##  Dependencies
 
