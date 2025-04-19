@@ -42,7 +42,23 @@ This project aims to build a predictive analytics model to identify ICU patients
 - SMOTE improves recall for the minority (readmitted) class.
 
 ---
+##  Dependencies
 
+To run this project, the following Python libraries are required:
 
+- `pandas` – Data manipulation
+- `numpy` – Numerical computations
+- `matplotlib`, `seaborn` – Visualization
+- `scikit-learn` – Machine learning models and metrics
+- `xgboost` – Gradient boosting model
+- `imblearn` – SMOTE for class imbalance handling
+- `torch` – PyTorch framework used for ClinicalBERT
+- `transformers` – Hugging Face library for loading ClinicalBERT
+- `tqdm` – Progress bar for embedding loop
 
+### Installation
 
+You can install all dependencies with:
+
+```bash
+pip install 
